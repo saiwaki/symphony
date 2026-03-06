@@ -1,7 +1,7 @@
 ---
 tracker:
   kind: linear
-  project_slug: "symphony-0c79b11b75ea"
+  project_slug: "first-project-9842ff7460db"
   active_states:
     - Todo
     - In Progress
@@ -34,6 +34,9 @@ codex:
   thread_sandbox: workspace-write
   turn_sandbox_policy:
     type: workspaceWrite
+server:
+  port: 4000
+  host: "127.0.0.1"
 ---
 
 You are working on a Linear ticket `{{ issue.identifier }}`
